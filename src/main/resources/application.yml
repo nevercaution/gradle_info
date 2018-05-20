@@ -1,4 +1,4 @@
 
-ext.appVersion: "$ext.appVersion"
-ext.projectName: "$ext.projectName"
+ext.appVersion: ${ext.appVersion}
+ext.projectName: ${ext.projectName}
 
