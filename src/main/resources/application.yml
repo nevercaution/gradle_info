@@ -1,0 +1,4 @@
+
+ext.appVersion: "$ext.appVersion"
+ext.projectName: "$ext.projectName"
+
