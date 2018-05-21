@@ -1,4 +1,11 @@
+spring:
+  profiles:
+    active: local
 
-ext.appVersion: ${ext.appVersion}
-ext.projectName: ${ext.projectName}
 
+
+ext.app_version: "$ext.appVersion:#{null}"
+ext.project_name: "$ext.projectName:#{null}"
+
+server:
+  port: 8081

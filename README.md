@@ -15,7 +15,7 @@ $ java -jar build/libs/gradle_info-0.0.1-SNAPSHOT.jar
 
 ## how to use
 ```$xslt
-$ curl localhost:8080/main
+$ curl localhost:8081/main
 
 teddy.bear, version : 1.0.1-SNAPSHOT
 ```

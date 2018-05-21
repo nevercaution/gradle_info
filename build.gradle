@@ -33,7 +33,10 @@ springBoot {
 }
 
 processResources {
-    expand(project.properties)
+    filesMatching('**/application.yml') {
+
+        expand(project.properties)
+    }
 }
 
 dependencies {
